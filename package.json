@@ -32,5 +32,5 @@
     "@vr/application": "file:./packages/application"
   },
   "homepage": "https://github.com/IJohnDean/monorepo-test#readme",
-  "files": ["dist"]
+  "files": ["dist", "packages"]
 }
