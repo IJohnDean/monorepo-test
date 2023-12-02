@@ -29,7 +29,7 @@
     "url": "https://github.com/IJohnDean/monorepo-test/issues"
   },
   "dependencies": {
-    "@vr/application": "file:packages/application"
+    "@vr/application": "file:./packages/application"
   },
   "homepage": "https://github.com/IJohnDean/monorepo-test#readme",
   "files": ["dist"]
