@@ -1,5 +1,5 @@
 {
-  "name": "@vr/application",
+  "name": "@vr/appliation",
   "main": "lib/index.js",
   "module": "lib/index.mjs",
   "types": "lib/index.d.ts",
@@ -15,5 +15,11 @@
       }
     }
   },
-  "files": ["lib", "*.d.ts"]
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "lib",
+    "*.d.ts"
+  ]
 }
