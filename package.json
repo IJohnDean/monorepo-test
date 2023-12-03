@@ -1,0 +1,6 @@
+{
+  "name": "vr-mono",
+  "workspaces": [
+    "packages/*"
+  ]
+}
