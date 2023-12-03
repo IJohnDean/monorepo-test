@@ -3,6 +3,18 @@
   "workspaces": [
     "packages/*"
   ],
+  "exports": {
+    "./*": {
+      "import": {
+        "types": "./lib/*/index.d.ts",
+        "default": "./lib/*/index.mjs"
+      },
+      "require": {
+        "types": "./lib/*/index.d.ts",
+        "default": "./lib/*/index.js"
+      }
+    }
+  },
   "scripts": {
     "build:packages": "rollup -c --failAfterWarnings"
   },
@@ -11,8 +23,6 @@
   },
   "files": [
     "lib",
-    "packages",
-    "dist",
     "*.d.ts"
   ],
   "devDependencies": {
