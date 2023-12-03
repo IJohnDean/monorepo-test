@@ -6,12 +6,12 @@
   "exports": {
     "./*": {
       "import": {
-        "types": "./lib/*/index.d.ts",
-        "default": "./lib/*/index.mjs"
+        "types": "./lib/*",
+        "default": "./lib/*"
       },
       "require": {
-        "types": "./lib/*/index.d.ts",
-        "default": "./lib/*/index.js"
+        "types": "./lib/*",
+        "default": "./lib/*"
       }
     }
   },
