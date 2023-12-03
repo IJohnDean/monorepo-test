@@ -2,5 +2,8 @@
   "name": "vr-mono",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "@vr/application": "file:./packages/application"
+  }
 }
