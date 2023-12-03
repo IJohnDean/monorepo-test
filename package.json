@@ -11,8 +11,7 @@
   },
   "files": [
     "lib",
-    "packages/package.json",
-    "packages/*/lib",
+    "packages",
     "dist",
     "*.d.ts"
   ],
